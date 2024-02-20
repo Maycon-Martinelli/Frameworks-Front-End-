@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <!-- Adicione o link para o Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #profile-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        #user-info {
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            margin: 0;
+        }
+
+        #user-bio {
+            line-height: 1.6;
+        }
+
+        #social-links {
+            margin-top: 20px;
+        }
+
+        #social-links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5" id="profile-container">
+        <img class="rounded-circle" id="profile-picture" src="https://placekitten.com/150/150" alt="Profile Picture">
+        <div id="user-info">
+            <h1>Nome do Usuário</h1>
+            <h2>Desenvolvedor Web</h2>
+        </div>
+        <p id="user-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor semper justo, a ultricies massa posuere in.</p>
+        
+        <div id="social-links">
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <!-- Adicione o link para o Bootstrap JS e o jQuery (opcional, necessário para alguns recursos do Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
